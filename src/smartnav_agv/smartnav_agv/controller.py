@@ -17,7 +17,7 @@ class Controller(Node):
     def command_callback(self, msg: String) -> None:
         twist = Twist()
         if msg.data == "MOVE_FORWARD":
-            twist.linear.x = 0.3
+            twist.linear.x = 0.8
         else:
             twist.linear.x = 0.0
 
