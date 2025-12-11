@@ -36,8 +36,8 @@ source /opt/ros/humble/setup.bash
 export TURTLEBOT3_MODEL=burger  
 ros2 launch smartnav_agv smartnav_gazebo.launch.py  
 
-3. *Send a navigation goal*
-source /opt/ros/humble/setup.bash
+3. *Send a navigation goal*  
+source /opt/ros/humble/setup.bash  
 source ~/smartnav_ws/install/setup.bash  
 ros2 run smartnav_agv goal_sender  
 
