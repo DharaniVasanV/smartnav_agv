@@ -31,11 +31,13 @@ SmartNav AGV consists of the following nodes:
 
 
 ## Simulation Setup
-1. *Launch Gazebo + SmartNav*  
+1. *Launch Gazebo + SmartNav*
+source /opt/ros/humble/setup.bash
 export TURTLEBOT3_MODEL=burger  
 ros2 launch smartnav_agv smartnav_gazebo.launch.py  
 
-2. *Send a navigation goal*  
+3. *Send a navigation goal*
+source /opt/ros/humble/setup.bash
 ros2 run smartnav_agv goal_sender  
 
 What happens:
